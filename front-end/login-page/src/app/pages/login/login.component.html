@@ -1,7 +1,11 @@
 <app-default-login-layout
 title="Login into your account"
 primaryBtnText="Login now"
-secondaryBtnText="Signup now">
+secondaryBtnText="Signup now"
+(submit)="submit()"
+(navigate)="navigate()"
+[disablePrimaryBtn]="!loginForm.valid"
+>
 
   <form [formGroup]="loginForm">
 
