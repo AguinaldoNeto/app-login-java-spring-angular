@@ -1,17 +1,24 @@
 <main>
-  <section>
+  <section class="form-section">
     <!-- SEÇÃO DO FORMULÁRIO -->
     <img src="/assets/svg/logo.svg" alt="Logomarca">
-    <h2></h2>
-    <button></button>
-    <div>
-      <span>or</span>
+    <h2> {{ title }} </h2>
+
+    <div class="btn-wrapper">
+      <button class="btn-primary"> {{ primaryBtnText }} </button>
+      <div class="divider">
+        <div></div>
+        <span>or</span>
+        <div></div>
+      </div>
+      <button class="btn-secondary">{{ secondaryBtnText }} </button>
     </div>
-    <button></button>
+
   </section>
-  <section>
+
+  <section class="main-section">
     <!-- SEÇÃO DA IMAGEM -->
-    <h2></h2>
+    <h1>You Should, MoveIt</h1>
     <img src="/assets/svg/main-illustration.svg" alt="Ilustração da tela de login">
   </section>
 </main>
